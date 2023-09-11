@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+  
+.background {
+    position: relative;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 13vh;
+    padding-bottom: 8vh;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(16, 23, 42);
+}
+
+  
