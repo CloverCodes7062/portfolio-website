@@ -1,0 +1,45 @@
+.right-container {
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+
+.view-resume-p {
+    font-weight: 700;
+}
+
+.margin-top15 {
+    margin-top: 15px;
+}
+
+.view-resume-p span::before {
+    content: "—— "
+}
+
+.view-resume-p:hover span::before {
+    content: "——— ";
+}
+
+.view-resume-p:hover {
+    color: rgb(250, 262, 284);
+}
+
+.projects-container {
+    margin-top: 75px;
+    width: 100%;
+    height: auto;
+}
+
+.project {
+    display: flex;
+    gap: 30px;
+}
+
+.project-text {
+    margin-top: -8px;
+}
+
+.project.not-first {
+    margin-top: 50px;
+}

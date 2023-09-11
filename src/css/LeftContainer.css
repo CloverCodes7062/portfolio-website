@@ -28,17 +28,56 @@ p {
     margin-top: 10px;
 }
 
-.git-logo {
+.about-p {
+    margin-top: 30px;
+    color: rgb(100,116,139);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.about-p span::before {
+    content: "—— "
+}
+
+.about-p:hover span::before {
+    content: "——— ";
+}
+
+.about-p:hover {
+    color: rgb(250, 262, 284);
+}
+
+.about-projects-link-container {
+    margin-top: 27%;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.logo-container {
     position: absolute;
     bottom: 0;
     left: -30px;
+    max-height: fit-content;
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 path {
     fill: rgb(200,211,236);
 }
 
-.git-logo:hover path {
+.git-logo:hover .git-logo-path {
+    fill: rgb(250, 262, 284);
+    cursor: pointer;
+}
+
+.linkedin-logo {
+    margin-top: 3px;
+}
+
+.linkedin-logo:hover .linkedin-logo-path {
     fill: rgb(250, 262, 284);
     cursor: pointer;
 }
