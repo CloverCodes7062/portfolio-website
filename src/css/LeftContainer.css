@@ -45,6 +45,7 @@ p {
 
 .about-p:hover {
     color: rgb(250, 262, 284);
+    cursor: pointer;
 }
 
 .about-projects-link-container {
@@ -82,6 +83,7 @@ path {
     cursor: pointer;
 }
 
-
-
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
 
