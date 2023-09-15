@@ -6,6 +6,10 @@
     overflow-x: hidden;
 }
 
+.right-container::-webkit-scrollbar {
+    width: 0;
+}
+
 .view-resume-p, .view-all-projects-p {
     font-weight: 700;
 }

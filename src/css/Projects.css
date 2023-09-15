@@ -36,3 +36,7 @@
     background-color: rgb(16, 23, 42);
     overflow-y: auto;
 }
+
+.project-grid::-webkit-scrollbar {
+    width: 0;
+}
