@@ -30,7 +30,7 @@ function RightContainer() {
                             className='flappy-bird-img' 
                             src={flappyBirdImg} 
                             alt="Flappy Bird img"
-                            width="150"
+                            width="75"
                             height="100"
                         />
                         <div className='project-text'>

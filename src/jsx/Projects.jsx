@@ -19,7 +19,7 @@ function Projects() {
                             className='resume-builder-img project-grid-img' 
                             src={flappyBirdImg} 
                             alt="Flappy Bird img"
-                            width="150"
+                            width="75"
                             height="100"
                         />
                         <div className='project-grid-text project-text'>
