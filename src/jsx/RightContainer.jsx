@@ -71,7 +71,7 @@ function RightContainer() {
                 </a>
             </div>
             <Link to='/projects' className='view-all-projects-p margin-top15'>
-                <span>View All Projects</span>
+                <span className='view-all-projects-p'>View All Projects</span>
                 {" "}
                 <FontAwesomeIcon 
                     icon={["fas", "arrow-right"]}
