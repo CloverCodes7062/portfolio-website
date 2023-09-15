@@ -1,5 +1,5 @@
-import '/Users/stacymccarrell/Desktop/WebDevProjects/portfolio-website/portfolio-website/src/css/Background.css';
-import React, { useEffect, useState } from 'react';
+import '../css/Background.css';
+import React from 'react';
 
 function Background({ children }) {
     return (
