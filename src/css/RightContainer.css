@@ -54,6 +54,10 @@
     padding: 15px;
 }
 
+.project-first {
+    gap: 70px;
+}
+
 .project:hover {
     background-color: rgb(22,35,65);
     border-radius: 10px;
@@ -77,4 +81,12 @@
 
 .project-desc {
     white-space: break-spaces;
+}
+
+.main-page-project-title {
+    color: rgb(255, 255, 255);
+}
+
+.flappy-bird-img {
+    margin-left: 35px;
 }

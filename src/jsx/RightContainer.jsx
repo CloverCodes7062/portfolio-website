@@ -25,16 +25,16 @@ function RightContainer() {
             </a>
             <div className='projects-container'>
                 <a className="project-a-tag" href="https://github.com/CloverCodes7062/flappy-bird-ai" target="_blank">
-                    <div className="project">
+                    <div className="project project-first">
                         <img
-                            className='resume-builder-img' 
+                            className='flappy-bird-img' 
                             src={flappyBirdImg} 
                             alt="Flappy Bird img"
                             width="150"
                             height="100"
                         />
                         <div className='project-text'>
-                            <h3 className='project-title'>Flappy Bird with AI</h3>
+                            <h3 className='project-title main-page-project-title'>Flappy Bird with AI</h3>
                             <p className='project-desc'>Flappy Bird Clone. Created with Python using Pygame. Integrated NEAT AI into the game for autonomous play using neat-python.</p>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ function RightContainer() {
                             height="100"
                         />
                         <div className='project-text'>
-                            <h3 className='project-title'>Resume Builder</h3>
+                            <h3 className='project-title main-page-project-title'>Resume Builder</h3>
                             <p className='project-desc'>Simple Resume Building Web App. Built using Vite-React using JavaScript, JSX, HTML, CSS, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
                         </div> 
                     </div>
@@ -64,7 +64,7 @@ function RightContainer() {
                             height="100"
                         />
                         <div className='project-text'>
-                            <h3 className='project-title'>Random Quote Generator</h3>
+                            <h3 className='project-title main-page-project-title'>Random Quote Generator</h3>
                             <p className='project-desc'>A Random Quote Generator. Built using jQuery, JavaScript, HTML and CSS. Users can click and "next quote" button to get another quote, with the background color having a chance to change on every click.</p>
                         </div> 
                     </div>
