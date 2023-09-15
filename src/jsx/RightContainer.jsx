@@ -34,7 +34,7 @@ function RightContainer() {
                             height="100"
                         />
                         <div className='project-text'>
-                            <h3 className='project-title main-page-project-title'>Flappy Bird with AI</h3>
+                            <h3 className='project-title flappy-bird-text'>Flappy Bird with AI</h3>
                             <p className='project-desc'>Flappy Bird Clone. Created with Python using Pygame. Integrated NEAT AI into the game for autonomous play using neat-python.</p>
                         </div>
                     </div>

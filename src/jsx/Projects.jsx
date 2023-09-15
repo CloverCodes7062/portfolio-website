@@ -13,16 +13,16 @@ function Projects() {
         <div className="all-projects-main-container">
             <h1 className="projects-header1">All Projects</h1>
             <div className="project-grid">
-                <a className="project-grid-a-tag flappy-bird" href="https://github.com/CloverCodes7062/flappy-bird-ai" target="_blank">
-                    <div className="project-grid-div project" id="project1">
+                <a className="project-grid-a-tag" href="https://github.com/CloverCodes7062/flappy-bird-ai" target="_blank">
+                    <div className="project-grid-div project flappy-bird-project-div" id="project1">
                         <img
-                            className='resume-builder-img project-grid-img' 
+                            className='resume-builder-img project-grid-img flappy-bird-img' 
                             src={flappyBirdImg} 
                             alt="Flappy Bird img"
                             width="75"
                             height="100"
                         />
-                        <div className='project-grid-text project-text'>
+                        <div className='project-grid-text'>
                             <h3 className='project-grid-title project-title'>Flappy Bird with AI</h3>
                             <p className='project-grid-desc project-desc'>Flappy Bird Clone. Created with Python using Pygame. Integrated NEAT AI into the game for autonomous play using neat-python.</p>
                         </div>

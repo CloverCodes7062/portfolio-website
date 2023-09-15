@@ -22,13 +22,17 @@
     height: 175px;
 }
 
+.flappy-bird-project-div {
+    gap: 63px;
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(400px, 1fr));
-    grid-auto-rows: minmax(0, 1fr);
+    grid-auto-rows: auto;
     row-gap: 20px;
     column-gap: 50px;
     margin: 0 auto;
     background-color: rgb(16, 23, 42);
-    overflow: hidden;
+    overflow-y: auto;
 }
