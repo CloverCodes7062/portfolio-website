@@ -74,3 +74,7 @@
 .view-all-projects-p:visited {
     color: rgb(148, 163, 184);
 }
+
+.project-desc {
+    white-space: break-spaces;
+}

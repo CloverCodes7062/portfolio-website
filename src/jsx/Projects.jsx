@@ -1,5 +1,12 @@
-import React from "react";
-import '/Users/stacymccarrell/Desktop/WebDevProjects/portfolio-website/portfolio-website/src/css/Projects.css';
+import React from 'react';
+import '../css/Projects.css';
+import flappyBirdImg from '../assets/flappybird-ai.png';
+import expensesTrackerImg from '../assets/expenses-tracker-img.png';
+import infiniteRunningAIImg from '../assets/infinite-running-ai.png';
+import pongImg from '../assets/pong-screenshot.png';
+import resumeBuilderImg from '../assets/resume-maker.png';
+import randomQuoteGenImg from '../assets/random-quote-gen.png';
+import weatherAppImg from '../assets/weather-app.png';
 
 function Projects() {
     return (
@@ -10,7 +17,7 @@ function Projects() {
                     <div className="project-grid-div project" id="project1">
                         <img
                             className='resume-builder-img project-grid-img' 
-                            src="src/jsx/flappybird-ai.png" 
+                            src={flappyBirdImg} 
                             alt="Flappy Bird img"
                             width="150"
                             height="100"
@@ -22,10 +29,10 @@ function Projects() {
                     </div>
                 </a>
                 <a className="project-grid-a-tag pong" href="https://github.com/CloverCodes7062/pong-remake" target="_blank">
-                    <div className="project-grid-div project" id="project1">
+                    <div className="project-grid-div project" id="project2">
                         <img
                             className='resume-builder-img project-grid-img' 
-                            src="src/jsx/pong-screenshot.png" 
+                            src={pongImg} 
                             alt="Pong Img"
                             width="150"
                             height="100"
@@ -37,10 +44,10 @@ function Projects() {
                     </div>
                 </a>
                 <a className="project-grid-a-tag pong" href="https://github.com/CloverCodes7062/infinite-running-ai" target="_blank">
-                    <div className="project-grid-div project" id="project1">
+                    <div className="project-grid-div project" id="project3">
                         <img
                             className='resume-builder-img project-grid-img' 
-                            src="src/jsx/infinite-running-ai.png" 
+                            src={infiniteRunningAIImg}
                             alt="Running AI"
                             width="150"
                             height="100"
@@ -52,11 +59,11 @@ function Projects() {
                     </div>
                 </a>
                 <a className="project-grid-a-tag pong" href="https://github.com/CloverCodes7062/expense-tracker" target="_blank">
-                    <div className="project-grid-div project" id="project1">
+                    <div className="project-grid-div project" id="project4">
                         <img
                             className='resume-builder-img project-grid-img' 
-                            src="src/jsx/expenses-tracker-img.png" 
-                            alt="Pong Img"
+                            src={expensesTrackerImg}
+                            alt="Expenses TRacker Img"
                             width="150"
                             height="100"
                         />
@@ -67,32 +74,47 @@ function Projects() {
                     </div>
                 </a>
                 <a className="project-grid-a-tag pong" href="https://keen-bonbon-73022c.netlify.app/" target="_blank">
-                    <div className="project-grid-div project" id="project1">
+                    <div className="project-grid-div project" id="project5">
                         <img
                             className='resume-builder-img project-grid-img' 
-                            src="src/jsx/resume-maker.png" 
-                            alt="Pong Img"
+                            src={resumeBuilderImg} 
+                            alt="Resume Builder Img"
                             width="150"
                             height="100"
                         />
                         <div className='project-grid-text project-text'>
                             <h3 className='project-grid-title project-title'>Resume Builder</h3>
-                            <p className='project-grid-desc project-desc'>Simple resume building web app. Built ing Vite-React using JavaScript, JSX, HTML, CSS, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
+                            <p className='project-grid-desc project-desc'>Simple resume building web app. Built in Vite-React using JavaScript, JSX, HTML, CSS, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
                         </div>
                     </div>
                 </a>
                 <a className="project-grid-a-tag pong" href="https://spiffy-starburst-3b84ed.netlify.app/" target="_blank">
-                    <div className="project-grid-div project" id="project1">
+                    <div className="project-grid-div project" id="project6">
                         <img
                             className='resume-builder-img project-grid-img' 
-                            src="src/jsx/random-quote-gen.png" 
-                            alt="Pong Img"
+                            src={randomQuoteGenImg}
+                            alt="Random Quote Gen Img"
                             width="150"
                             height="100"
                         />
                         <div className='project-grid-text project-text'>
                             <h3 className='project-grid-title project-title'>Random Quote Generator</h3>
                             <p className='project-grid-desc project-desc'>A Random Quote Generator. Built using jQuery, JavaScript, HTMl and CSS. Users can click and "next quote" button to get another quote, with the background color having a chance to change on every click.</p>
+                        </div>
+                    </div>
+                </a>
+                <a className="project-grid-a-tag weather-app" href="https://github.com/CloverCodes7062/weather-app" target="_blank">
+                    <div className="project-grid-div project" id="project7">
+                        <img
+                            className='resume-builder-img project-grid-img' 
+                            src={weatherAppImg}
+                            alt="Weather App Img"
+                            width="150"
+                            height="100"
+                        />
+                        <div className='project-grid-text project-text'>
+                            <h3 className='project-grid-title project-title'>Weather Web App</h3>
+                            <p className='project-grid-desc project-desc'>A Wether Web App, that allows users to check the weather. Built using HTML, CSS, JavaScript, NodeJS, jQuery, Bootstrap, and Font-Awesome-Styles. When a user inputs a valid zipcode, an AJAX request is made to a weather api, which returns the temperature in Fahrenheit and the feels like temperature.</p>
                         </div>
                     </div>
                 </a>

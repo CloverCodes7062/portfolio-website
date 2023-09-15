@@ -1,6 +1,5 @@
-import '/Users/stacymccarrell/Desktop/WebDevProjects/portfolio-website/portfolio-website/src/css/LeftContainer.css'
+import '../css/LeftContainer.css';
 import gitLogo from '/Users/stacymccarrell/Desktop/WebDevProjects/portfolio-website/portfolio-website/src/assets/github-mark.svg';
-import { Link as ScrollLink } from 'react-scroll';
 
 function LeftContainer() {
     return (
@@ -9,7 +8,9 @@ function LeftContainer() {
             <h2 className='margin-top10'>C.S Student At Western Governors University</h2>
             <p className='margin-top10'>Interested in all forms of software development.</p>
             <div className='about-projects-link-container'>
-                <p className='about-p'><span>About</span></p>
+                <a className="scroll-smooth" href="#view-about">
+                    <p className='about-p'><span>About</span></p>
+                </a>
                 <a className='scroll-smooth' href="#view-resume">
                     <p className='about-p'><span>Projects</span></p>
                 </a>

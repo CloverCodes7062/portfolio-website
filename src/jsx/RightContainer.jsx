@@ -1,14 +1,19 @@
-import '/Users/stacymccarrell/Desktop/WebDevProjects/portfolio-website/portfolio-website/src/css/RightContainer.css'
+import '../css/RightContainer.css'
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom';
+import flappyBirdImg from "../assets/flappybird-ai.png";
+import resumeBuilderImg from '../assets/resume-maker.png';
+import randomQuoteGenImg from '../assets/random-quote-gen.png';
+import resumePdf from '../assets/Resume.pdf';
 
 function RightContainer() {
 
     return (
         <div className='right-container'>
-            <p>This is a placeholder about section.</p>
-            <a href='src/jsx/Resume.pdf' target='_blank' rel='noopener noreferrer'>
+            <p id='view-about'>&emsp;I'm a Computer Science student at Western Governors University with a passion for all aspects of software development. My journey in the world of code has been both exciting and enlightening. From creating innovative projects to solving complex coding challenges, I thrive on the endless possibilities that software engineering offers.</p>
+            <p className='margin-top15'>&emsp;As a dedicated learner and aspiring software engineer, I constantly seek new opportunities to expand my knowledge and skills. Whether it's building web applications, experimenting with AI, or generating creative solutions, I'm always eager to explore the ever-evolving landscape of technology.</p>
+            <a href={resumePdf} target='_blank' rel='noopener noreferrer'>
                 <p className='view-resume-p margin-top15' id='view-resume'>
                     <span>View Full Resume</span>
                     {" "}
@@ -23,7 +28,7 @@ function RightContainer() {
                     <div className="project">
                         <img
                             className='resume-builder-img' 
-                            src="src/jsx/flappybird-ai.png" 
+                            src={flappyBirdImg} 
                             alt="Flappy Bird img"
                             width="150"
                             height="100"
@@ -38,14 +43,14 @@ function RightContainer() {
                     <div className='project not-first'>
                         <img
                             className='resume-builder-img' 
-                            src="src/jsx/resume-maker.png" 
+                            src={resumeBuilderImg}
                             alt="Resume Builder"
                             width="150"
                             height="100"
                         />
                         <div className='project-text'>
                             <h3 className='project-title'>Resume Builder</h3>
-                            <p className='project-desc'>Simple resume building web app. Built ing Vite-React using JavaScript, JSX, HTML, CSS, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
+                            <p className='project-desc'>Simple Resume Building Web App. Built using Vite-React using JavaScript, JSX, HTML, CSS, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
                         </div> 
                     </div>
                 </a>
@@ -53,14 +58,14 @@ function RightContainer() {
                     <div className='project not-first random-quote-gen'>
                         <img
                             className='random-quote-gen-img' 
-                            src="src/jsx/random-quote-gen.png" 
+                            src={randomQuoteGenImg}
                             alt="Random Quote Gen"
                             width="150"
                             height="100"
                         />
                         <div className='project-text'>
                             <h3 className='project-title'>Random Quote Generator</h3>
-                            <p className='project-desc'>A Random Quote Generator. Built using jQuery, JavaScript, HTMl and CSS. Users can click and "next quote" button to get another quote, with the background color having a chance to change on every click.</p>
+                            <p className='project-desc'>A Random Quote Generator. Built using jQuery, JavaScript, HTML and CSS. Users can click and "next quote" button to get another quote, with the background color having a chance to change on every click.</p>
                         </div> 
                     </div>
                 </a>
