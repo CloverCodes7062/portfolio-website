@@ -1,5 +1,4 @@
 import '../css/LeftContainer.css';
-import gitLogo from '/Users/stacymccarrell/Desktop/WebDevProjects/portfolio-website/portfolio-website/src/assets/github-mark.svg';
 
 function LeftContainer() {
     return (
