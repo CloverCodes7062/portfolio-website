@@ -9,7 +9,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Projects from './jsx/projects'
+import Projects from './jsx/Projects'
 
 library.add(fas, faTwitter, faFontAwesome, faArrowRight)
 
