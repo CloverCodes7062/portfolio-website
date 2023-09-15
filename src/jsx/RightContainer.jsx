@@ -19,18 +19,18 @@ function RightContainer() {
                 </p>
             </a>
             <div className='projects-container'>
-                <a className='project-a-tag' href='https://keen-bonbon-73022c.netlify.app/' target='_blank'>
-                    <div className='project'>
+                <a className="project-a-tag" href="https://github.com/CloverCodes7062/flappy-bird-ai" target="_blank">
+                    <div className="project">
                         <img
                             className='resume-builder-img' 
-                            src="src/jsx/resume-maker.png" 
-                            alt="Resume Builder"
+                            src="src/jsx/flappybird-ai.png" 
+                            alt="Flappy Bird img"
                             width="150"
                             height="100"
                         />
                         <div className='project-text'>
-                            <h3 className='project-title'>Resume Builder</h3>
-                            <p className='project-desc'>Project Desc</p>
+                            <h3 className='project-title'>Flappy Bird with AI</h3>
+                            <p className='project-desc'>Flappy Bird Clone. Created with Python using Pygame. Integrated NEAT AI into the game for autonomous play using neat-python.</p>
                         </div>
                     </div>
                 </a>
@@ -45,7 +45,7 @@ function RightContainer() {
                         />
                         <div className='project-text'>
                             <h3 className='project-title'>Resume Builder</h3>
-                            <p className='project-desc'>Simple resume building web app. Built using Vite-React, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
+                            <p className='project-desc'>Simple resume building web app. Built ing Vite-React using JavaScript, JSX, HTML, CSS, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
                         </div> 
                     </div>
                 </a>
