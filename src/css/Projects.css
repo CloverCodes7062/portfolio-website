@@ -40,3 +40,7 @@
 .project-grid::-webkit-scrollbar {
     width: 0;
 }
+
+.project-grid-title:visited {
+    color: rgb(148, 163, 184);
+}
