@@ -7,6 +7,7 @@ import pongImg from '../assets/pong-screenshot.png';
 import resumeBuilderImg from '../assets/resume-maker.png';
 import randomQuoteGenImg from '../assets/random-quote-gen.png';
 import weatherAppImg from '../assets/weather-app.png';
+import travelExplorerAppImg from '../assets/travel-explorer-app.png';
 
 function Projects() {
     return (
@@ -25,6 +26,21 @@ function Projects() {
                         <div className='project-grid-text'>
                             <h3 className='project-grid-title project-title'>Flappy Bird with AI</h3>
                             <p className='project-grid-desc project-desc'>Flappy Bird Clone. Created with Python using Pygame. Integrated NEAT AI into the game for autonomous play using neat-python.</p>
+                        </div>
+                    </div>
+                </a>
+                <a className="project-grid-a-tag travel-explorer-app" href="https://kaleidoscopic-muffin-0c2208.netlify.app" target="_blank">
+                    <div className="project-grid-div project" id="project8">
+                        <img
+                            className='resume-builder-img project-grid-img' 
+                            src={travelExplorerAppImg}
+                            alt="Travel Explorer App Img"
+                            width="150"
+                            height="100"
+                        />
+                        <div className='project-grid-text project-text'>
+                            <h3 className='project-grid-title project-title'>Travel Destination Explorer</h3>
+                            <p className='project-grid-desc project-desc'> Built Using Vite-React, Node.js, CSS, Bootstrap, Font Awesome Styles, and several APIs (GoogleMaps, Geocage Geocoding, TripAdivsor). Travel Destination Explorer that displays three countries and infomation about them. Users can input a location to visit a detailed view with more information about it</p>
                         </div>
                     </div>
                 </a>
