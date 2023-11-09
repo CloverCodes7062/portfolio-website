@@ -36,6 +36,7 @@ function Projects() {
             <div className="project-grid">
                 <Project 
                     projectHref={"https://github.com/CloverCodes7062/flappy-bird-ai"}
+                    flappyBirdImgSrc={true}
                     projectID={"project1"}
                     imgSrc={flappyBirdImg}
                     imgAlt={"Flappy Bird img"}
