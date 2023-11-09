@@ -6,6 +6,7 @@ import flappyBirdImg from "../assets/flappybird-ai.png";
 import resumeBuilderImg from '../assets/resume-maker.png';
 import randomQuoteGenImg from '../assets/random-quote-gen.png';
 import resumePdf from '../assets/Resume.pdf';
+import travelExplorerAppImg from '../assets/travel-explorer-app.png';
 
 function RightContainer() {
 
@@ -39,18 +40,18 @@ function RightContainer() {
                         </div>
                     </div>
                 </a>
-                <a className='project-a-tag' href='https://keen-bonbon-73022c.netlify.app/' target='_blank'>
+                <a className='project-a-tag' href='https://kaleidoscopic-muffin-0c2208.netlify.app' target='_blank'>
                     <div className='project not-first'>
                         <img
                             className='resume-builder-img' 
-                            src={resumeBuilderImg}
-                            alt="Resume Builder"
+                            src={travelExplorerAppImg}
+                            alt="Travel Explorer App Img"
                             width="150"
                             height="100"
                         />
                         <div className='project-text'>
-                            <h3 className='project-title main-page-project-title'>Resume Builder</h3>
-                            <p className='project-desc'>Simple Resume Building Web App. Built using Vite-React using JavaScript, JSX, HTML, CSS, Bootstrap, and Font-Awesome Styles. Users can add/remove anyting on the template.</p>
+                            <h3 className='project-title main-page-project-title'>Travel Destination Explorer</h3>
+                            <p className='project-desc'>Built Using Vite-React, Node.js, CSS, Bootstrap, Font Awesome Styles, and several APIs (GoogleMaps, Geocage Geocoding, TripAdivsor). Travel Destination Explorer that displays three countries and infomation about them. Users can input a location to visit a detailed view with more information about it</p>
                         </div> 
                     </div>
                 </a>
