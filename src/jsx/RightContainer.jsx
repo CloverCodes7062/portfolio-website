@@ -51,7 +51,7 @@ function RightContainer() {
                         />
                         <div className='project-text'>
                             <h3 className='project-title main-page-project-title'>Travel Destination Explorer</h3>
-                            <p className='project-desc'>Built Using Vite-React, Node.js, CSS, Bootstrap, Font Awesome Styles, and several APIs (GoogleMaps, Geocage Geocoding, TripAdivsor). Travel Destination Explorer that displays three countries and infomation about them. Users can input a location to visit a detailed view with more information about it</p>
+                            <p className='project-desc'>Built Using Vite-React, Node.js, CSS, Bootstrap, Font Awesome Styles, and several APIs (GoogleMaps, Geocage Geocoding, TripAdivsor). Travel Destination Explorer that displays three countries and infomation about them. Users can input a location to visit a detailed view with more information about it.</p>
                         </div> 
                     </div>
                 </a>

@@ -53,7 +53,7 @@ function Projects() {
                     imgWidth={"150"}
                     imgHeight={"100"}
                     title={"Travel Destination Explorer"}
-                    desc={"Built Using Vite-React, Node.js, CSS, Bootstrap, Font Awesome Styles, and several APIs (GoogleMaps, Geocage Geocoding, TripAdivsor). Travel Destination Explorer that displays three countries and infomation about them. Users can input a location to visit a detailed view with more information about it"}
+                    desc={"Built Using Vite-React, Node.js, CSS, Bootstrap, Font Awesome Styles, and several APIs (GoogleMaps, Geocage Geocoding, TripAdivsor). Travel Destination Explorer that displays three countries and infomation about them. Users can input a location to visit a detailed view with more information about it."}
                 />
                 <Project
                     projectHref={"https://github.com/CloverCodes7062/pong-remake"}
