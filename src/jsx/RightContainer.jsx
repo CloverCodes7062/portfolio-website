@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import flappyBirdImg from "../assets/flappybird-ai.png";
 import resumeBuilderImg from '../assets/resume-maker.png';
 import randomQuoteGenImg from '../assets/random-quote-gen.png';
+import cloverChatAppImg from '../assets/clover-chat-app.png';
 import resumePdf from '../assets/Resume.pdf';
 import travelExplorerAppImg from '../assets/travel-explorer-app.png';
 
@@ -25,8 +26,25 @@ function RightContainer() {
                 </p>
             </a>
             <div className='projects-container'>
+                <a className='project-a-tag' href='https://chat-app-nextjs-dun.vercel.app/' target='_blank'>
+                    <div className='project project-first real-time-chat-app'>
+                        <img
+                            className='real-time-chat-app-img' 
+                            src={cloverChatAppImg}
+                            alt="Full-Stack Real-Time Chat Application"
+                            width="150"
+                            height="100"
+                        />
+                        <div className='project-text'>
+                            <h3 className='project-title main-page-project-title'>Full-Stack Real-Time Chat Application</h3>
+                            <p className='project-desc'>
+                                A comprehensive chat solution integrating real-time messaging, voice and video calls, and screen sharing. Developed with NextJS, ReactJS, NodeJS, Supabase, and Dyte.io SDK. Features secure authentication, dynamic chat room management, and is hosted on Vercel for optimal performance.
+                            </p>
+                        </div> 
+                    </div>
+                </a>
                 <a className="project-a-tag" href="https://github.com/CloverCodes7062/flappy-bird-ai" target="_blank">
-                    <div className="project project-first">
+                    <div className="project not-first project-first">
                         <img
                             className='flappy-bird-img' 
                             src={flappyBirdImg} 
@@ -52,21 +70,6 @@ function RightContainer() {
                         <div className='project-text'>
                             <h3 className='project-title main-page-project-title'>Travel Destination Explorer</h3>
                             <p className='project-desc'>Built Using Vite-React, Node.js, CSS, Bootstrap, Font Awesome Styles, and several APIs (GoogleMaps, Geocage Geocoding, TripAdivsor). Travel Destination Explorer that displays three countries and infomation about them. Users can input a location to visit a detailed view with more information about it.</p>
-                        </div> 
-                    </div>
-                </a>
-                <a className='project-a-tag' href='https://spiffy-starburst-3b84ed.netlify.app/' target='_blank'>
-                    <div className='project not-first random-quote-gen'>
-                        <img
-                            className='random-quote-gen-img' 
-                            src={randomQuoteGenImg}
-                            alt="Random Quote Gen"
-                            width="150"
-                            height="100"
-                        />
-                        <div className='project-text'>
-                            <h3 className='project-title main-page-project-title'>Random Quote Generator</h3>
-                            <p className='project-desc'>A Random Quote Generator. Built using jQuery, JavaScript, HTML and CSS. Users can click and "next quote" button to get another quote, with the background color having a chance to change on every click.</p>
                         </div> 
                     </div>
                 </a>
